@@ -68,7 +68,7 @@ public options: any [] = [
         this.showModal();
     }
 
-    public getAll(){
+    public getAll() {
         this.httpClient.get('')
             .then(e => {
                 this.clients = e.data.result;

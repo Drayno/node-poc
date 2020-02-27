@@ -11,7 +11,6 @@ export default class HttpClient {
 
     }
     
-
     private get defaultConfig(): AxiosRequestConfig {
         return {
           headers: {
