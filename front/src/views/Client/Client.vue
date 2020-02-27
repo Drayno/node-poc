@@ -16,7 +16,7 @@ public httpClient =  HttpClient('client');
 
 public clients:ClientModel [] = [];
 
-public fields: any [] = ['code', 'name', 'address','phone','status','Ações'];
+public fields: any [] = ['Código', 'Nome', 'Endereço','Telefone','status','Ações'];
 
 public options: any [] = [
           { value: '1', text: 'Ativo' },
